@@ -167,6 +167,9 @@ body {
   font-family: "Satisfy", cursive;
   font-size: 20px;
 }
+audio {
+  display: none;
+}
 #dbs:hover {
   background-image: url("https://wallpaperaccess.com/full/662507.jpg");
   background-position: center;
@@ -176,6 +179,9 @@ body {
   transform: translate(0px, -0.5px);
   transition-duration: 0.5s;
   font-size: 0px;
+}
+#dbs:hover audio {
+  display: inline-block;
 }
 
 #naruto:hover {
